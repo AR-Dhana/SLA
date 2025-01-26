@@ -1,0 +1,84 @@
+/* P001 style sheet, it contains only class & id seloctors here. */
+
+
+
+/* Header section selectors */
+.header {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: center;
+    background-color: var(--header-bgcolor);
+    border-radius: 2rem;
+}
+
+.header-logo {
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+/* Main section selectors */
+.main {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.Workout_sec {
+    display: flex;
+    font-size: var(--font-size-secondary);
+    background-color: var(--header-bgcolor);
+    border-radius: 2rem;
+}
+
+.sec_text {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.table {
+    border: 2px solid gray;
+}
+
+
+/* Link styles */
+a.custom-link {
+    /* Removes underline */
+    text-decoration: none;
+    /* Custom link color */
+    color: var(--font-color-secondary);
+}
+
+/* Hover effect */
+a.custom-link:hover {
+    color: #0056b3;
+}
+
+.proj_sec{
+    font-size: var(--font-size-secondary);
+    background-color: var(--header-bgcolor);
+    border-radius: 2rem;
+}
+
+.main_proj{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+/* Footer section */
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: var(--header-bgcolor);
+    border-radius: 2rem;
+}

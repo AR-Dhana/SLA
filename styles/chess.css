@@ -1,0 +1,23 @@
+/* chess.css */
+.main {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    border: 2px solid gray;
+    width: 45%;
+    height: 80%;
+}
+
+.row {
+    display: flex;
+}
+
+.div1 {
+    border: 2px solid gray;
+    width: 84px;
+    height: 70px;
+}
+
+.bg-color {
+    background-color: black;
+}

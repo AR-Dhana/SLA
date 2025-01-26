@@ -1,0 +1,11 @@
+1.What is DOM.
+
+2.Create home page using div tag with example 
+3.Write media query with example css
+4.what are the css selectors and its types.
+5.Explain css flex and grid.
+6.Explain box model with example.
+7.write css measurements.
+8.Explain css color ranges and its declaration.
+9.Explain BOM.
+10.Types of cases in programming.

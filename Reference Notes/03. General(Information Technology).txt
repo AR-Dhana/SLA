@@ -1,0 +1,51 @@
+Information Technology
+----
+  5 Types of Applications
+----
+1)Desktop / Windows App - .EXE (Executable File)
+   GUI-SuperMarket Billing
+   
+Microsoft - Visual Basic 6.0 - VB
+             - .NET Framework 
+                  - VB.NET + C# / VB
+  Oracle -Core JAVA - JSWing - .EXE
+Core Python + Tkinter 
+  
+//Browser
+2)Web App - .dll (Dynamic Linking Libraries)
+ 
+      Website - static web pages  - HTML + CSS
+                     dynamic   - HTML + CSS + Javascript(UI/UX)-REACT.JS/Angular+DBMS
+     
+     Web App - Dynamic - UI/UX  + core programming (C#/JAVA/Python/Node.js) +
+ Database - 
+DBMS - Database Management System - .xml / .json ( File order)
+/RDBMS - Relational Database Management System-
+   SQL-QUery - MYsql / Orcale / Microsoft SQL SERVER
+ 
+
+3)Mobile App - .apk   - React Native
+             Core java - Android Studio - android
+             C#  - xamarin 
+Node.js 
+flutter  - andriod + ios
+swift code - ios
+4)console App - command line application
+      - C
+     C++
+JAVA
+Python
+C#
+Node.js
+   
+5)Report Application
+
+
+HTML 
+CSS
+Javascript
+OOP
+SQL
+React.js - HTML+CSS+JS - .jsx
+Web API
+Node.js

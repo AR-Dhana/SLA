@@ -1,0 +1,186 @@
+1.What are void elements?
+    Syntax Rules for Void Elements
+    ------------------------------
+    Void elements in HTML5 do not require a closing /.
+
+    Examples of Void Elements
+    -------------------------
+    <area>	    Defines a clickable area inside an <map>.
+    <base>	    Specifies the base URL for relative URLs.
+    <br>	    Inserts a line break.
+    <col>	    Specifies column properties for <colgroup>.
+    <embed>	    Embeds external content like plugins.
+    <hr>	    Inserts a horizontal rule (line).
+    <img>	    Embeds an image.
+    <input>	    Defines an input field.
+    <link>	    Links an external resource (e.g., CSS file).
+    <meta>	    Defines metadata about the HTML document.
+    <source>	    Specifies multiple media sources.
+    <track>	    Specifies text tracks for <video> and <audio>.
+    <wbr>	    Suggests a line break opportunity.
+
+
+
+
+
+2.How to change an inline element into a block-level element? (Answered)
+    To change an inline element into a block-level element, you can use CSS by setting its display property to block. 
+    Eg :
+    ----
+    <style>
+      .inline-to-block {
+        display: block;
+      }
+    </style>
+    <p>This is a <span class="inline-to-block">transformed</span> inline element.</p>
+
+
+
+
+
+3.How Container tag is different from the Empty tag in HTML?
+    Key Differences
+    ________________________________________________________________________________________________________________________
+   |Feature	|   Container Tag	                    |        Empty Tag                                              |
+   |------------|-------------------------------------------|---------------------------------------------------------------|
+   |Structure	| Has both opening and closing tags.	    | Does not have a closing tag.                                  |
+   |------------|-------------------------------------------|---------------------------------------------------------------|
+   |Content	| Encloses content or child elements.	    | Does not contain any content.                                 |     
+   |------------|-------------------------------------------|---------------------------------------------------------------|
+   |Examples	| <div>, <p>, <h1>	                    | <img>, <br>, <hr>                                             |
+   |------------|-------------------------------------------|---------------------------------------------------------------|
+   |Purpose	| Used for grouping or organizing content.  | Used for standalone elements like breaks, media, or metadata. |
+   |------------|-------------------------------------------|---------------------------------------------------------------|
+   |Closing Tag	| Required (</tagname>).	            | Not required; self-closing in some cases.                     |
+   |____________|___________________________________________|_______________________________________________________________|
+
+
+
+
+
+4.What tags are used to separate a section of text? 
+
+
+
+
+
+5.In how many ways you can apply CSS to your HTML file? (Answered)
+
+
+
+
+
+6.How to include one CSS file in another? (Answered)
+
+
+
+
+
+7.What are logical and physical tags in HTML?
+
+
+
+
+
+
+8.What is the difference between <html lang=”en’> and <html lang=”en-US’>? (Answered)
+
+
+
+
+
+
+
+9.How to create scrolling text or images on a webpage?
+
+
+
+
+
+10.How to open a hyperlink in another window or tab in HTML?
+
+
+
+
+
+11.Inline and block elements in HTML5? (Answered)
+
+
+
+
+
+
+
+12.What is the difference between <figure> tag and <img> tag? (Answered)
+    1. <img> Tag
+        
+
+
+    2. <figure> Tag
+
+
+
+
+
+13.How to specify the metadata in HTML5? (Answered)
+
+
+
+
+
+14.What is the difference between <meter> tag and <progress> tag?
+    1. <meter> Tag
+      Purpose: Represents a scalar value within a known range, such as a measurement, quantity, or a percentage.
+      Attributes:
+        min: Specifies the minimum value of the range.
+        max: Specifies the maximum value of the range.
+        value: Specifies the current value.
+        low: Represents a "low" threshold in the range (optional).
+        high: Represents a "high" threshold in the range (optional).
+        optimum: Represents the "optimal" value in the range (optional).
+
+    2. <progress> Tag
+      Purpose: Represents the completion progress of a task, such as loading or file uploads.
+      Attributes:
+        value: Specifies the current progress value.
+        max: Specifies the total or maximum value (default is 1).
+
+
+
+15.What are the New tags in Media Elements in HTML5?
+
+  Tag	Description
+  ---------------
+  <video>	 -->  Embeds video content.
+    Purpose: Used to embed video content in a webpage.
+    Attributes:
+    src: Specifies the video file source.
+    controls: Adds built-in playback controls.
+    autoplay: Starts playing the video automatically.
+    loop: Repeats the video after it ends.
+    muted: Starts the video in a muted state.
+    poster: Specifies an image to show before the video plays.
+
+  <audio>  --> 	Embeds audio content.
+    Purpose: Used to embed audio content in a webpage.
+    Attributes:
+    src: Specifies the audio file source.
+    controls: Adds built-in playback controls.
+    autoplay: Starts playing the audio automatically.
+    loop: Repeats the audio after it ends.
+    muted: Starts the audio in a muted state.
+
+  <track>   -->	  Adds captions, subtitles, or metadata to media.
+    Purpose: Provides text tracks for <video> and <audio> elements, such as subtitles, captions, or metadata.
+    Attributes:
+    src: Specifies the source of the track file.
+    kind: Specifies the type of track (e.g., subtitles, captions, descriptions, chapters, metadata).
+    srclang: Specifies the language of the track (e.g., en for English).
+    label: Provides a user-readable title for the track.
+    default: Indicates the default track.
+
+  <source>  --> 	Provides multiple sources for media.
+    Purpose: Specifies multiple media sources for <audio> or <video> elements. The browser chooses the most compatible source.
+    Attributes:
+    src: Specifies the source file.
+    type: Specifies the MIME type of the media file.

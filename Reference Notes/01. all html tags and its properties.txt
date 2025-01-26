@@ -1,0 +1,323 @@
+<!DOCTYPE>
+- No attributes
+
+<a>
+- href, target, download, rel, type, hreflang, ping
+
+<abbr>
+- title
+
+<address>
+- No attributes
+
+<area>
+- alt, coords, shape, href, target, download, rel
+
+<article>
+- No attributes
+
+<aside>
+- No attributes
+
+<audio>
+- src, controls, autoplay, loop, muted, preload
+
+<b>
+- No attributes
+
+<base>
+- href, target
+
+<bdi>
+- dir
+
+<bdo>
+- dir
+
+<blockquote>
+- cite
+
+<body>
+- alink, background, bgcolor, link, text, vlink
+
+<br>
+- No attributes
+
+<button>
+- autofocus, disabled, form, formaction, formenctype, formmethod, formnovalidate, formtarget, name, type, value
+
+<canvas>
+- width, height
+
+<caption>
+- No attributes
+
+<cite>
+- No attributes
+
+<code>
+- No attributes
+
+<col>
+- span, width
+
+<colgroup>
+- span
+
+<data>
+- value
+
+<datalist>
+- No attributes
+
+<dd>
+- No attributes
+
+<del>
+- cite, datetime
+
+<details>
+- open
+
+<dfn>
+- title
+
+<dialog>
+- open
+
+<div>
+- No attributes
+
+<dl>
+- No attributes
+
+<dt>
+- No attributes
+
+<em>
+- No attributes
+
+<embed>
+- src, type, width, height
+
+<fieldset>
+- disabled, form, name
+
+<figcaption>
+- No attributes
+
+<figure>
+- No attributes
+
+<footer>
+- No attributes
+
+<form>
+- action, method, autocomplete, enctype, novalidate, target, rel
+
+<h1> to <h6>
+- No attributes
+
+<head>
+- No attributes
+
+<header>
+- No attributes
+
+<hr>
+- No attributes
+
+<html>
+- lang, xmlns
+
+<i>
+- No attributes
+
+<iframe>
+- src, width, height, name, sandbox, allow, allowfullscreen, loading, referrerpolicy
+
+<img>
+- src, alt, width, height, usemap, crossorigin, decoding, ismap, referrerpolicy, loading, sizes, srcset
+
+<input>
+- type, name, value, placeholder, required, disabled, readonly, minlength, maxlength, size, pattern, multiple, checked, src, alt, list, step, autofocus, autocomplete, form, formaction, formenctype, formmethod, formnovalidate, formtarget, width, height
+
+<ins>
+- cite, datetime
+
+<kbd>
+- No attributes
+
+<label>
+- for
+
+<legend>
+- No attributes
+
+<li>
+- value
+
+<link>
+- href, rel, type, media, hreflang, sizes, as, crossorigin, integrity
+
+<main>
+- No attributes
+
+<map>
+- name
+
+<mark>
+- No attributes
+
+<menu>
+- type, label
+
+<menuitem>
+- type, label, icon, disabled, checked, radiogroup
+
+<meta>
+- name, content, http-equiv, charset, viewport
+
+<meter>
+- value, min, max, low, high, optimum
+
+<nav>
+- No attributes
+
+<noscript>
+- No attributes
+
+<object>
+- data, type, width, height, name, form, usemap
+
+<ol>
+- reversed, start, type
+
+<optgroup>
+- label, disabled
+
+<option>
+- value, selected, disabled, label
+
+<output>
+- for, form, name
+
+<p>
+- No attributes
+
+<param>
+- name, value
+
+<picture>
+- No attributes
+
+<pre>
+- No attributes
+
+<progress>
+- value, max
+
+<q>
+- cite
+
+<rp>
+- No attributes
+
+<rt>
+- No attributes
+
+<ruby>
+- No attributes
+
+<s>
+- No attributes
+
+<samp>
+- No attributes
+
+<script>
+- src, type, async, defer, crossorigin, integrity, referrerpolicy
+
+<section>
+- No attributes
+
+<select>
+- name, multiple, disabled, required, size, form, autofocus
+
+<small>
+- No attributes
+
+<source>
+- src, type, media, sizes, srcset
+
+<span>
+- No attributes
+
+<strong>
+- No attributes
+
+<style>
+- type, media
+
+<sub>
+- No attributes
+
+<summary>
+- No attributes
+
+<sup>
+- No attributes
+
+<svg>
+- width, height, viewBox, xmlns
+
+<table>
+- border
+
+<tbody>
+- No attributes
+
+<td>
+- colspan, rowspan, headers
+
+<template>
+- No attributes
+
+<textarea>
+- name, rows, cols, disabled, readonly, required, placeholder, maxlength, minlength, form, wrap, autofocus
+
+<tfoot>
+- No attributes
+
+<th>
+- colspan, rowspan, headers, scope
+
+<thead>
+- No attributes
+
+<time>
+- datetime
+
+<title>
+- No attributes
+
+<tr>
+- No attributes
+
+<track>
+- kind, src, srclang, label, default
+
+<u>
+- No attributes
+
+<ul>
+- No attributes
+
+<var>
+- No attributes
+
+<video>
+- src, controls, autoplay, loop, muted, preload, width, height, poster, crossorigin, playsinline
+
+<wbr>
+- No attributes

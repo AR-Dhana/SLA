@@ -1,0 +1,57 @@
+/* common style sheet, it contains only universal & tag seloctors here and also root variables if it is used in the project. */
+
+
+
+/* Types of selectors */
+/* 1.universal selector */
+/* 2.type or tag selector */
+/* 3.class selector */
+/* 4.id selector */
+
+
+
+
+
+
+/* universal selecrtor */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* css variable declaration */
+:root {
+    --header-bgcolor: rgb(145, 141, 231);
+    --font-color-prime: red;
+    --font-color-secondary: rgb(33, 28, 28);
+    --font-size-prime: 1.5rem;
+    --font-size-secondary: 1rem;
+}
+
+
+
+
+/* tag selector */
+body {
+    /* it is vertical access for the display block */
+    /* align-content: center; */
+
+    /* it is Horizontel access for the display block */
+    /* justify-items: center; */
+
+
+    /* Set a default font */
+    font-family: Arial, sans-serif;
+    /* Improve readability */
+    line-height: 1.6;
+    
+}
+
+h3{
+    text-align: center;
+}
