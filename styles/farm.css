@@ -1,0 +1,119 @@
+/* Farm Management */
+
+.farm_manage {
+    background-color: #b0e554;
+}
+
+.card_color {
+    background-color: darkolivegreen;
+}
+
+.farm_header {
+    height: 85vh;
+    background-color: darkolivegreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #b0e554;
+    background-image: url(../images/man_purchase.png);
+    background-size: contain;
+    background-position: center;
+    background-blend-mode: soft-light;
+
+}
+
+.farm {
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    padding: 2%;
+}
+
+.farm_logo {
+    height: 50px;
+}
+
+.div2 {
+    width: 85%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu {
+    padding: 1% 2%;
+    font-size: larger;
+}
+
+.header_text {
+    margin-top: 4rem;
+    justify-items: center;
+    font-size: 3rem;
+}
+
+
+
+/* About */
+.content {
+    height: 65vh;
+    display: flex;
+}
+
+.content_img {
+    width: 50%;
+    align-content: end;
+    /* text-align: center; */
+    margin: 1.5rem;
+    border-radius: 2%;
+    /* background-image: url(../images/farm.webp); */
+    background-size: contain;
+    background-position: center;
+    /* background-blend-mode: darken; */
+}
+
+.content_text {
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem 6rem;
+    text-align: center;
+}
+
+.content_head {
+    margin: 2%;
+    text-align: center;
+    font-size: xx-large;
+    color: darkolivegreen;
+}
+
+.text_color {
+    color: #b0e554;
+}
+
+.content_para {
+    margin: 5%;
+    font-size: 1.5rem;
+}
+
+.content_para_text {
+    color: azure;
+}
+
+
+/* contact */
+.contact {
+    height: 65vh;
+    background-color: antiquewhite;
+
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.map {
+    width: 50%;
+    border: 1px solid red;
+}
+
+.small_form {
+    width: 50%;
+    border: 1px solid red;
+}

@@ -26,7 +26,7 @@
 
 /* css variable declaration */
 :root {
-    --header-bgcolor: rgb(145, 141, 231);
+    --header-bgcolor: #b0f0c3;
     --font-color-prime: red;
     --font-color-secondary: rgb(33, 28, 28);
     --font-size-prime: 1.5rem;

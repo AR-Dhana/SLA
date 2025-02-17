@@ -1,6 +1,17 @@
 /* P001 style sheet, it contains only class & id seloctors here. */
 
 
+.aa{
+    display: flex;
+    border: 1px solid red;
+    flex: 1 2 2;
+}
+
+.fa .fa-search{
+    border: 1px solid blue;
+}
+
+
 
 /* Header section selectors */
 .header {
@@ -52,12 +63,12 @@ a.custom-link {
     /* Removes underline */
     text-decoration: none;
     /* Custom link color */
-    color: var(--font-color-secondary);
+    color: #0056b3;
 }
 
 /* Hover effect */
 a.custom-link:hover {
-    color: #0056b3;
+    color: #1105f3;
 }
 
 .proj_sec{
@@ -77,7 +88,7 @@ a.custom-link:hover {
 /* Footer section */
 .footer-bottom {
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-size: 14px;
     background-color: var(--header-bgcolor);
     border-radius: 2rem;
