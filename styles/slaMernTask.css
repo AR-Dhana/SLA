@@ -1,17 +1,6 @@
 /* P001 style sheet, it contains only class & id seloctors here. */
 
 
-.aa{
-    display: flex;
-    border: 1px solid red;
-    flex: 1 2 2;
-}
-
-.fa .fa-search{
-    border: 1px solid blue;
-}
-
-
 
 /* Header section selectors */
 .header {
@@ -26,6 +15,42 @@
     height: 50px;
 }
 
+
+
+
+/* .table-container {
+    max-height: 200px;
+    overflow-y: auto;
+} */
+
+
+ /* Style for scrollable table */
+ .table-container {
+    position: relative;
+}
+
+/* Ensure the table header stays fixed */
+thead th {
+    position: sticky;
+    top: 0;
+    background-color: #343a40; /* Matches .table-dark */
+    color: #fff;
+    z-index: 2; /* Ensure it stays above the rows */
+}
+
+/* Add padding for scrollbar inside table */
+.table-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #adb5bd; /* Scrollbar color */
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    background-color: #f8f9fa;
+}
 
 
 
@@ -45,6 +70,7 @@
     font-size: var(--font-size-secondary);
     background-color: var(--header-bgcolor);
     border-radius: 2rem;
+    height: 60vh;
 }
 
 .sec_text {
@@ -71,13 +97,13 @@ a.custom-link:hover {
     color: #1105f3;
 }
 
-.proj_sec{
+.proj_sec {
     font-size: var(--font-size-secondary);
     background-color: var(--header-bgcolor);
     border-radius: 2rem;
 }
 
-.main_proj{
+.main_proj {
     margin-left: 2rem;
     margin-right: 2rem;
     padding-bottom: 2rem;
