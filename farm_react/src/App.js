@@ -1,14 +1,20 @@
 import React from 'react';
 import './App.css';
-import WeatherApp from './components/Wether';
-import Sample from './components/Sample';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { AdminCustomerLogin } from './components/welcome-board/AdminCustomerLogin';
+import { AdminLogin } from './components/admin/AdminLogin';
+import { CustomerIndex } from './components/customer/CustomerIndex';
 
 function App() {
   return (
     <>
-      <WeatherApp />
-      <hr />
-      <Sample />
+      <Router>
+        <Routes>
+          <Route path="/" element={<AdminCustomerLogin />} />
+          <Route path="/admin" element={<AdminLogin />} />
+          <Route path="/customer" element={<CustomerIndex />} />
+        </Routes>
+      </Router>
     </>
   );
 }

@@ -1,0 +1,48 @@
+.ad-cus-log {
+    height: 80vh;
+    margin: 5% 25%;
+    text-align: center;
+    background-color: rgba(98, 181, 248, 0.812);
+    border-radius: 4%;
+}
+
+.ad-cus-log-header {
+    padding: 10% 0%;
+}
+
+.welcome-text {
+    color: aliceblue;
+}
+
+.ad-cus-log-body {
+    justify-items: center;
+    align-items: center;
+}
+
+.aa{
+    width: 100%;
+    justify-items: center;
+    /* margin: 5% 0; */
+}
+
+.ad-login-button {
+    padding: 3% 10%;
+    font-size: 2rem;
+    border: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+
+.cus-login-button {
+    padding: 3% 10%;
+    font-size: 2rem;
+    border: none;
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    color: aliceblue;
+}
+
+.cus-login-button:hover, .ad-login-button:hover{
+    cursor: pointer;
+}
