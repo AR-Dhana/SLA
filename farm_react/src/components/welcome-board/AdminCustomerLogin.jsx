@@ -7,17 +7,20 @@ export const AdminCustomerLogin = () => {
   const navigate = useNavigate();
   return (
     <>
-      <div className='ad-cus-log bg-dark'>
+      <div className='ad-cus-log'>
         <div className='ad-cus-log-header'>
-          <h1 className='welcome-text color-primary'>Welcome To Our Farm...</h1>
+          <h2 className='welcome-text'>Welcome To Our <br /> Farm...</h2>
         </div>
 
         <div className='ad-cus-log-body'>
           <div className='aa'>
-            <button className='ad-login-button' onClick={() => navigate("/admin")}>Admin</button>
+            <button className='ad-login-button btn btn-primary w-50 fs-3' onClick={() => navigate("/admin")}>Admin</button>
           </div>
+          <br />
+          <br />
+          <br />
           <div className="aa">
-            <button className='cus-login-button' onClick={() => navigate("/customer")}>Customer</button>
+            <button className='cus-login-button btn btn-primary w-50 fs-3' onClick={() => navigate("/customer")}>Customer</button>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "../../bootstrap.css";
+import { Link } from "react-router-dom";
 
 export const AdminLogin = () => {
   return (
@@ -16,13 +17,13 @@ export const AdminLogin = () => {
               <label htmlFor="password" className="form-label">Password</label>
               <input type="password" className="form-control" id="password" placeholder="Enter your password" required />
             </div>
-            <button type="submit" className="btn btn-primary w-100">Login</button>
+            <button type="submit" className="btn btn-primary w-100 fs-3">Login</button>
           </form>
-          <p className="text-center mt-4">
-            <a href="#" className="text-decoration-none">Forgot Password?</a><br />
-            <a href="#" className="text-decoration-none">Go Back</a><br />
-            {/* Don't have an account?  
-            <a href="#" className="text-decoration-none">Register here</a> */}
+          <p className="text-center mt-3">
+            <Link to="/forgot-password" className="text-decoration-none">Forgot Password?</Link><br />
+            <Link to="/" className="text-decoration-none">
+              <span className="fs-3">&#8617;</span>
+            </Link>
           </p>
         </div>
       </div>

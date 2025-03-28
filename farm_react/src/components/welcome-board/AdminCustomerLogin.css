@@ -1,8 +1,8 @@
 .ad-cus-log {
-    height: 80vh;
-    margin: 5% 25%;
+    height: 70vh;
+    margin: 7% 33%;
     text-align: center;
-    background-color: rgba(98, 181, 248, 0.812);
+    background-color: white;
     border-radius: 4%;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .welcome-text {
-    color: aliceblue;
+    color: black;
 }
 
 .ad-cus-log-body {
@@ -19,7 +19,7 @@
     align-items: center;
 }
 
-.aa{
+.aa {
     width: 100%;
     justify-items: center;
     /* margin: 5% 0; */
@@ -27,22 +27,23 @@
 
 .ad-login-button {
     padding: 3% 10%;
-    font-size: 2rem;
-    border: none;
+    font-size: 1.5rem;
+    border: 2px solid blue;
     display: block;
     background-color: rgba(255, 255, 255, 0);
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
 .cus-login-button {
     padding: 3% 10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border: none;
     display: block;
     background-color: rgba(255, 255, 255, 0);
-    color: aliceblue;
+    /* color: aliceblue; */
 }
 
-.cus-login-button:hover, .ad-login-button:hover{
+.cus-login-button:hover,
+.ad-login-button:hover {
     cursor: pointer;
 }
