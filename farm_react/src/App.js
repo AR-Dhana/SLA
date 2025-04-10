@@ -7,6 +7,7 @@ import { CustomerIndex } from './components/customer/CustomerIndex';
 import { CustomerLogin } from './components/customer/CustomerLogin';
 import { CustomerSignUp } from './components/customer/CustomerSignUp';
 import Home from './components/Home';
+import SignupForm from './components/SignupForm';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<AdminCustomerLogin />} />
           <Route path="/demo" element={<Home />} />
+          <Route path="/fs" element={<SignupForm />} />
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/customer" element={<CustomerIndex />} />
           <Route path="/login" element={<CustomerLogin />} />

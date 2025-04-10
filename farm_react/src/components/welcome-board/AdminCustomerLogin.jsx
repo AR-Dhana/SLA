@@ -7,7 +7,8 @@ export const AdminCustomerLogin = () => {
   const navigate = useNavigate();
   return (
     <>
-    <button onClick={()=>{navigate("/demo")}}>Demo</button>
+      <button onClick={() => { navigate("/demo") }}>Demo</button>
+      <button onClick={() => { navigate("/fs") }}>FS</button>
       <div className='ad-cus-log'>
         <div className='ad-cus-log-header'>
           <h2 className='welcome-text'>Welcome To Our <br /> Farm...</h2>
