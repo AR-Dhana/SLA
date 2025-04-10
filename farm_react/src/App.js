@@ -6,6 +6,7 @@ import { AdminLogin } from './components/admin/AdminLogin';
 import { CustomerIndex } from './components/customer/CustomerIndex';
 import { CustomerLogin } from './components/customer/CustomerLogin';
 import { CustomerSignUp } from './components/customer/CustomerSignUp';
+import Home from './components/Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<AdminCustomerLogin />} />
+          <Route path="/demo" element={<Home />} />
           <Route path="/admin" element={<AdminLogin />} />
           <Route path="/customer" element={<CustomerIndex />} />
           <Route path="/login" element={<CustomerLogin />} />
