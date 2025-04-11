@@ -10,7 +10,7 @@ const registerUser = (req, res) => {
   }
 
   // Hash the password
-  bcrypt.hash(password, 10, (err, hashedPassword) => {
+  bcrypt.hash(password, 8, (err, hashedPassword) => {
     if (err) return res.status(500).json({ message: 'Error hashing password' });
 
     const sql = 'INSERT INTO users (username, email, password) VALUES (?, ?, ?)';
@@ -22,9 +22,26 @@ const registerUser = (req, res) => {
         return res.status(500).json({ message: 'Database error' });
       }
 
-      res.status(201).json({ message: 'User registered successfully' });
+      res.status(201).json({
+        message: 'User registered successfully',
+        user: {
+          id: result.insertId,
+          username: username
+        }
+      });
     });
   });
 };
 
-module.exports = { registerUser };
+
+
+// Fetch all users
+const getUsers = (req, res) => {
+  const sql = 'SELECT id, username FROM users ORDER BY id asc';
+  db.query(sql, (err, results) => {
+    if (err) return res.status(500).json({ message: 'Database fetch error' });
+    res.status(200).json(results);
+  });
+};
+
+module.exports = { registerUser, getUsers };
