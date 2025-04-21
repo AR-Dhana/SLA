@@ -22,6 +22,7 @@ export const AdminLogin = () => {
                     <p className="text-center mt-3">
                         <Link to="/upload-img" className="text-decoration-none">upload</Link><br />
                         <Link to="/gallary-img" className="text-decoration-none">gallary</Link><br />
+                        <Link to="/admin/add-product" className="text-decoration-none">Test</Link><br />
                         <Link to="/forgot-password" className="text-decoration-none">Forgot Password?</Link><br />
                         <Link to="/" className="text-decoration-none">
                             <span className="fs-3">&#8617;</span>
